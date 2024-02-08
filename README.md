@@ -1,8 +1,8 @@
-Linked List Implementation in C++:
+##**Linked List Implementation in C++:**
 
 This repository contains a C++ implementation of a linked list data structure along with several common operations. Linked lists are dynamic data structures that consist of a sequence of elements where each element points to the next one, forming a chain-like structure.
 
-Files Included:
+**Files Included:**
 
 Node.h: Header file containing the class definition for the Node class, which represents individual elements of the linked list.
 Node.cpp: Source file containing the implementation of the constructor for the Node class.
@@ -10,7 +10,7 @@ LinkedList.h: Header file containing the class definition and function prototype
 LinkedList.cpp: Source file containing the implementation of the functions declared in LinkedList.h.
 Use LinkedListmain.cpp to test and demonstrate the functionality of the linked list implementation.
 
-Functions Included:
+**Functions Included:**
 
 LinkedList(): Constructor to initialize the linked list.
 insertAtEnd(int): Inserts a new node with the given value at the end of the linked list.
@@ -27,7 +27,7 @@ findValue(int): Checks if a specific value is present in the linked list.
 minimumValue(): Returns the minimum value stored in the linked list.
 ~LinkedList(): Destructor to deallocate memory used by the linked list.
 
-How to Use:
+**How to Use:**
 
 Clone the repository to your local machine.
 Include the necessary header files (LinkedList.h and Node.h) in your C++ program.
