@@ -9,13 +9,14 @@ LinkedList::LinkedList()
 	first = 0;
 	last = 0;
 }
+//this will insert the new node at the end of linked list
 void LinkedList::insertAtEnd(int data1)
 {
 	Node* temp;
 	temp = new Node;
 	temp->data = data1;
 	temp->next = 0;
-	if (first == 0)
+	if (first == 0)//checks if list is empty
 	{
 		first = temp;
 		last = temp;
@@ -28,13 +29,14 @@ void LinkedList::insertAtEnd(int data1)
 	cout << "Data is inserted successfully!!" << endl;
 }
 
+
 void LinkedList::insertAtStart(int data1)
 {
 	Node* temp;
 	temp = new Node;
 	temp->data = data1;
 	temp->next = 0;
-	if (first == 0)
+	if (first == 0)//checks if list is empty
 	{
 		first = temp;
 		last = temp;
